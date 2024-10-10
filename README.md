@@ -13,3 +13,5 @@ In this repository, the downscaling of Sentinel-3 SLSTR LST data was performed a
 
 For the ET estimation, an approach based on the pyTSEB library (ET_Estimation.ipynb) was used to estimate ET using processed LST images and ERA5 data. The input parameters of the model are divided into two groups (i) directly imported from Sentinel-2, -3, and ERA5 and (ii) intermediate variables calculated using pyTSEB. 
 The final output of the processor is 20m resolution ET for available timesteps of Sentinel-3, which is calculated based on the latent heat flux output and converted to mm/day scale as GeoTiff files.
+
+Copernicus Data Space Ecosystem (CDSE): For more information about CDSE, visit https://dataspace.copernicus.eu/
